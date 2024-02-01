@@ -90,3 +90,8 @@
   /* width: 1000px;
   height: 300px; */
 }
+
+.subscribe-btn:hover {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
