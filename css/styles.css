@@ -112,6 +112,8 @@
   position: absolute;
   justify-content: center;
   align-items: center;
+  top: 8%;
+  left: 35%;
 }
 
 .subscribe-modal-window {
@@ -127,6 +129,8 @@
   background: transparent;
   border: none;
   float: right;
+  padding-top: 24px;
+  padding-right: 24px;
 }
 
 .subscribe-modal-header {
@@ -160,8 +164,8 @@
   font-weight: 600;
   line-height: normal;
   display: flex;
-  padding: 14px 40px;
-  align-items: flex-start;
+  padding: 17px 40px;
+  /* align-items: flex-start; */
   gap: 14px;
   background-color: #fd9222;
   border-radius: 100px;
@@ -189,4 +193,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.subscribe-header-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
