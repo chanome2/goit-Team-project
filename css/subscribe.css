@@ -119,7 +119,8 @@
 .subscribe-modal-window {
   width: 538px;
   height: 192px;
-  background: url(../images/choco.jpg), lightgray 50% / cover no-repeat;
+  background: url(../images/subscribe-choco.jpg),
+    lightgray 50% / cover no-repeat;
   flex-shrink: 0;
 }
 
