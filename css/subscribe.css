@@ -1,18 +1,26 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 :root {
-  /* page colors */
   --black: #111;
   --grey: #1e1823;
   --orange: #fd9222;
   --dirty-white: #fafafa;
   --white: #fff;
-  /* page font-style */
-  --montserrat: montserrat;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  font-family: Montserrat;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .subscribe-header {
@@ -122,6 +130,8 @@
   background: url(../images/subscribe-choco.jpg),
     lightgray 50% / cover no-repeat;
   flex-shrink: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .subscribe-button-close {
@@ -131,7 +141,7 @@
   border: none;
   float: right;
   padding-top: 24px;
-  padding-right: 24px;
+  padding-right: 48px;
 }
 
 .subscribe-modal-header {
